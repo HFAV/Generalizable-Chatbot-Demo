@@ -11,6 +11,8 @@ from llama_index import SimpleDirectoryReader, StorageContext, load_index_from_s
 from langchain import OpenAI
 from llama_index.node_parser import SimpleNodeParser
 
+/opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
+
 app = Flask(__name__)
 
 # Helper method to build an index given a list of PDF url's
